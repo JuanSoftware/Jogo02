@@ -351,10 +351,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95963c926f4f7d0409f328bb6555b2d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fruitsPrefabs: []
-  spwanPoints: []
-  minDelay: 0
-  MaxDelay: 0
+  fruitsPrefab:
+  - {fileID: 4914349003396592125, guid: 865f65ad850b8c045b23e671c2723bfa, type: 3}
+  - {fileID: 7979357462826064208, guid: 6dd78fa7c0901df4484e0fdcc523ed67, type: 3}
+  - {fileID: 1824049875440780124, guid: 6ea0c289a063d5b40989bf99a696b174, type: 3}
+  - {fileID: 978431988249998601, guid: 56de5722c14d0a24687e626165902182, type: 3}
+  - {fileID: 8158306086341583691, guid: 57cf23c51fdc34145a312bfe168bd86a, type: 3}
+  spwanPoints:
+  - {fileID: 1654644430}
+  - {fileID: 1867457654}
+  - {fileID: 687126910}
+  minDelay: 0.1
+  maxDelay: 2
 --- !u!4 &1575658915
 Transform:
   m_ObjectHideFlags: 0
