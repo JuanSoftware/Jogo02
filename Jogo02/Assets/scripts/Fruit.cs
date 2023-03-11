@@ -6,6 +6,7 @@ public class Fruit : MonoBehaviour
 {
     private Rigidbody2D myRB;
     [SerializeField] private float startForce;
+    public GameObject fruitSliced;
     void Start()
     {
         myRB = this.gameObject.GetComponent<Rigidbody2D> ();
